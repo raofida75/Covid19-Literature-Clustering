@@ -10,8 +10,8 @@ init_notebook_mode()
 
 ############################## LOAD DATA ##############################
 
-df = pd.read_csv('Data/Output/final_data.csv')
-# df = pd.read_csv('final_data.csv')
+#df = pd.read_csv('Data/Output/final_data.csv')
+df = pd.read_csv('final_data.csv')
 
 
 ################### HELPER FUNCTIONS TO PROCESS DATA ##################
