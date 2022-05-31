@@ -57,4 +57,4 @@ On the test dataset, both Kmeans and Spectral clustering appear to generalise we
 
 ### 6. Visualize the clusters.
 After assigning a cluster to each data point, the next logical step is to visualise it. But there's a catch. We have 100 columns of data. To visualise it, we'll need to limit the number of columns to no more than three. To accomplish this, we'll use t-SNE.
-<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Clusters%20TSNE.png" width="128"/>
+<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Clusters%20TSNE.png" width="300"/>
