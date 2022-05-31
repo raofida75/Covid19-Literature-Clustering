@@ -1,4 +1,5 @@
 # Covid19-Literature-Clustering
+[Link to the interactive dashboard](https://share.streamlit.io/raofida75/covid19-literature-clustering/dashboard.py)
 
 With the increase in scientific literature, there was a need for those documents to be organised. Using machine learning techniques, I will organise and visualise the scientific literature on or related to COVID-19, so that papers on similar topics are grouped together. This simplifies the navigation of topics and related papers. I plan to use the well-known CORD-19 dataset to carry out this approach.
 
@@ -57,4 +58,13 @@ On the test dataset, both Kmeans and Spectral clustering appear to generalise we
 
 ### 6. Visualize the clusters.
 After assigning a cluster to each data point, the next logical step is to visualise it. But there's a catch. We have 100 columns of data. To visualise it, we'll need to limit the number of columns to no more than three. To accomplish this, we'll use t-SNE.
+
+<p align="center">
 <img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Clusters%20TSNE.png" width="1000"/>
+</p>
+
+### 7. Topic modelling on each cluster
+We'll now try to determine which words in each cluster are the most important. The articles were clustered using K-means, but the themes were not labelled. We will use topic modelling to determine the most important terms for each cluster.
+
+We will use Non-Negative Matrix Factorization (NMF) for topic modelling.
+
