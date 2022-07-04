@@ -3,6 +3,9 @@
 
 With the increase in scientific literature, there was a need for those documents to be organised. Using machine learning techniques, I will organise and visualise the scientific literature on or related to COVID-19, so that papers on similar topics are grouped together. This simplifies the navigation of topics and related papers. I plan to use the well-known CORD-19 dataset to carry out this approach.
 
+## [Data](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
+In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 1,000,000 scholarly articles, including over 400,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.
+
 ## Methodology 
 ### [Data Preparation](https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Data%20Preparation.ipynb)
 Following steps have been performed to prepare the data to perform clustering.
