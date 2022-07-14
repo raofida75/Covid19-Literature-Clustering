@@ -16,12 +16,14 @@
 3. [Results](#results) 
 4. [Summary](#summary)
 
-## [Dataset](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
+## Dataset
+[Link to the dataset](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
+
 In response to the COVID-19 pandemic, the White House and a coalition of leading research groups have prepared the COVID-19 Open Research Dataset (CORD-19). CORD-19 is a resource of over 1,000,000 scholarly articles, including over 400,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This freely available dataset is provided to the global research community to apply recent advances in natural language processing and other AI techniques to generate new insights in support of the ongoing fight against this infectious disease. There is a growing urgency for these approaches because of the rapid acceleration in new coronavirus literature, making it difficult for the medical research community to keep up.
 
 ## Methodology 
 
-### [Data Preparation](https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Data%20Preparation.ipynb)
+### [Data Preparation](https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/notebook/Data%20Preparation.ipynb)
 Following steps have been performed to prepare the data to perform clustering.
 - Load metadata
 - Get the path of all json files.
@@ -30,7 +32,8 @@ Following steps have been performed to prepare the data to perform clustering.
 - Determine the language of each paper and keep only those in English.
 - Remove null and duplicate values
 
-### [Clustering Approach](https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Covid19%20Literature%20Clustering.ipynb)
+### Clustering Approach
+[Link to the notebook](https://nbviewer.org/github/raofida75/Covid19-Literature-Clustering/blob/master/notebooks/Covid19%20Literature%20Clustering.ipynb)
 #### 1. Preprocess body text
 	- Remove Stop words
 	- Perform Lematization. 
