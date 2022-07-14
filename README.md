@@ -9,12 +9,24 @@
 
 ## Table of Contents
 
-1. [Dataset](#dataset)     
-2. [Methodology](#methodology)  
+1. [Requirements](#requirements)
+2. [Dataset](#dataset)     
+3. [Methodology](#methodology)  
 	- [Data Preparation](#data-preparation) 
 	- [Clustering Approach](#clustering-approach) 	
-3. [Results](#results) 
-4. [Summary](#summary)
+4. [Results](#results) 
+5. [Summary](#summary)
+
+## Requirements
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- tensorflow
+- sklearn 
+- scipy
+- nltk
+- re
 
 ## Dataset
 [Link to the dataset](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
