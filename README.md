@@ -31,7 +31,7 @@ I have built an autoencoder which will recreate the input it receives by first g
 ### 4. Determine the number of optimal clusters.
 Clustering is the task of organising an unclassified collection of documents into meaningful, homogeneous clusters based on some concept of document similarity. I have looked at the inertia and silhouette score at various k values to identify the ideal k value for k-means. When I plotted silhouette against k, there was be a k value where I got the highest score. This is the ideal number of clusters.
 <p align="center">
-<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Silhoutte%20score.png" width="750"/>
+<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/images/Silhoutte%20score.png" width="750"/>
 </p>
 
 #### Result -- The optimal number of clusters found were 14. 
@@ -72,7 +72,7 @@ On the test dataset, both Kmeans and Spectral clustering were able to generalise
 After assigning a cluster to each data point, the next logical step was to visualise it. But there's a catch. We have 100 columns of data. To visualise it, I needed to limit the number of columns to no more than three. To accomplish this, I have used t-SNE.
 
 <p align="center">
-<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/Clusters%20TSNE.png" width="1000"/>
+<img src="https://github.com/raofida75/Covid19-Literature-Clustering/blob/master/images/Clusters%20TSNE.png" width="1000"/>
 </p>
 
 ### 7. Topic modelling on each cluster
